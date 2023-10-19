@@ -24,3 +24,10 @@ Codice JS: Lo script partirà al click del bottone invia, pertanto, il codice sa
 
 #### Output
 Console log del messaggio comunicante il prezzo del biglietto.
+
+Per cancellare verrà implementato un event listener sul tasto annulla:
+
+Al click:
+
+1. Cancellare dati dall'input
+2. Cancellare campi dei risultati
