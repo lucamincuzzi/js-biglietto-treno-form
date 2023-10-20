@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <form action="">
     <section class="module">
         <div class="input-item">
             <label for="km">Numero chilometri da percorrere</label>
-            <input type="text" id="km">
+            <input type="number" id="km">
         </div>
 
         <div class="input-item">
             <label for="age">Età del passeggero</label>
-            <input type="text" id="age">
+            <input type="number" id="age">
         </div>
 
         <div class="buttons">
-            <button id="send">Invia</button>
-            <button id="clear">Annulla</button>
+            <button type="submit" id="send">Invia</button>
+            <button type="reset" id="clear">Annulla</button>
         </div>
+    </form>
         <!-- Script -->
     <script src="js/script.js"></script>
 </body>

@@ -1,7 +1,8 @@
 alert("Salve, gentile viaggiatore!");
 
 // Raccolta dati
-document.getElementById("send").addEventListener("click", function () {
+document.getElementById("send").addEventListener("click", function (event) {
+  event.preventDefault();
   let kmNumberElem = document.getElementById("km");
   const kmNumber = parseInt(kmNumberElem.value);
   if (kmNumber > 0) {
